@@ -1,0 +1,533 @@
+/*公共*/
+.contentbox {
+	padding: 0px 0 20px;
+}
+.trends-left li:hover,
+.tagName:hover ,
+.notice ,
+.browserupgrade a ,
+#videoCloseBtn:hover ,
+.hjs-accumulate strong ,
+#videoCloseBtn:hover ,
+.hjs-traitBox:hover,
+.hjs-traitBox:hover i ,
+.app-header .active {
+	color: #199ed8;
+}
+.hjs-hzhbcon-ul ,
+.hjs-intZoneBox ,
+.carousel-indicators li ,
+.hjs-itemsNavBar li {
+	background: #fff;
+}
+/*行业资讯导航*/
+.hjs-itemsNavBar li {
+	color: #76838f;
+	cursor: pointer;
+}
+.carousel-indicators li.active ,
+.hjs-itemsNavBar li.active {
+	background: #199ed8;
+}
+.hjs-itemsNavBar li span {
+	padding: 10px 15px;
+}
+.txp_overlay_expired ,
+.hjs-identify ,
+.hjs-itemsNavBar li.active {
+	color: #fff;
+}
+
+/*轮播图*/
+.hjs-information ,
+.carousel-control {
+	display: none;
+}
+.finance-step .btn ,
+.trends-left ul li ,
+.carousel:hover .carousel-control {
+	display: block;
+}
+.carousel-indicators li {
+	width: 1rem;
+	height: 1rem;
+	margin: 0;
+	bottom: 5px;
+	border-color: #fff
+}
+.carousel-indicators li.active {
+	border-color: #199ed8
+}
+.carousel-indicators {
+	bottom: -10px;
+	z-index: 8;
+}
+.carousel-inner>.item>a>img, 
+.carousel-inner>.item>img, 
+.img-responsive, 
+.thumbnail a>img, 
+.thumbnail>img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+/*轮播下方-网站累计数*/
+.hjs-accumulate strong {
+	font-size: 25px;
+	margin-top: 5px;
+}
+.trends-left li i ,
+.trends-left h4 i ,
+.hjs-accumulate strong {
+	margin: 0 10px;
+}
+.information ,
+.hjs-accumulate li {
+	padding: 0;
+}
+
+/*网页特点*/
+.hjs-traitBox i {
+	font-size: 9.5rem;
+	cursor: pointer;
+	height: 100px;
+}
+.hjs-traitBox:first-child i {
+	font-size: 8.6rem;
+}
+/*行业资讯*/
+.hjs-itemsNavBar li ,
+.trends-left ,
+.trends-right ,
+.hjs-hzhbcon-ul ,
+.hjs-intZoneBox {
+	margin-bottom: 20px;
+}
+.hjs-information >a{
+	display: inline-block;
+}
+.finance-formBox ,
+.hjs-hzhbcon-ul li ,
+.finance-banner ,
+.trends-left ul li ,
+.trends-left,
+.trends-right ,
+.intZoneProTitle {
+	overflow: hidden;
+}
+/*投资专区*/
+.hjs-intZoneBox > img {
+    position: absolute;
+    left: -20px;
+    top: -20px;
+}
+
+.intZoneProTitle {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.hjs-nhll {
+	margin: 1rem 0;
+}
+
+.nhll-num {
+	color: #e24624;
+	color: #199ed8;
+	white-space: nowrap;
+	font-size: 5rem;
+}
+
+/*更多资讯*/
+.trends-left,
+.trends-right {
+	height: 360px;
+    padding: 6% 10%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.trends-left li i ,
+.trends-left h4 ,
+.trends-left h4 i {
+	font-size: 20px;
+	
+}
+.trends-left h4 a {
+	font-size: 14px;
+	margin-top: 3px
+}
+.trends-left li a ,
+.trends-left li i {
+    vertical-align: middle;
+}
+.trends-left ul li {
+	border-bottom: 1px solid #eee;
+	list-style-type: disc;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.accumulateBox ,
+.trends-left ul li {
+	padding: 10px 0px;
+}
+.hjs-hzhbcon-ul ,
+.trends-right {
+	padding: 2%;
+}
+.trends-right img ,
+.hjs-hzhbcon-ul img {
+	width: 100%;
+	height: 100%;
+    cursor: pointer;
+}
+.trends-left li i{
+	color: #bbb;
+}
+.trends-left h4 + ul li :hover .trends-left h4 + ul i {
+	color: #199ed8;
+}
+/*合作伙伴*/
+.hjs-hzhbcon-ul li {
+	width: 155px;
+	height: 60px;
+	margin: 8px;
+	background: #fff;
+}
+
+/*视频*/
+.hjs-videoLayer {
+	display: none;
+	position: absolute;
+	top: 400%;
+	z-index: 999;
+	width: 100%;
+	height: 180%;
+	background: rgba(0, 0, 0, .65);
+}
+#video {
+	width: 75%;
+	margin: auto;
+}
+#videoCloseBtn {
+	position: absolute;
+	right: 15px;
+	font-size: 25px;
+	color: #fff;
+	padding: 5px 10px 0 0;
+	cursor: pointer;
+}
+.finance-formInfo ,
+.finance-banner ,
+#video{
+	position: relative;
+}
+
+/*开始：提示升级页面*/
+.browserupgrade {
+	width: 100%;
+	font-size: 25px;
+	padding: 150px 0;
+	text-align: center;
+}
+
+/*我要融资页面*/
+.finance-banner {
+	padding: 50px;
+}
+.finance-bannerbg {
+	z-index: -1;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.notice {
+	font-size: 70px;
+}
+.finance-formBox {
+	width: 80%;
+	box-shadow: #adabab 0px 0px 10px;
+	background: rgba(255, 255, 255, 0.6);
+	border-radius: 10px;
+	margin: auto;
+}
+.finance-formInfo {
+	width: 80%;
+	margin: 20px auto;
+}
+
+.finance-formInfo i {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	padding: 7px 10px;
+	background: #f5f5f5;
+	border-right: 1px solid #bbb;
+}
+
+.finance-formInfo input {
+	width: 100%;
+	padding: 7px 10px;
+	padding-left: 45px;
+}
+
+.finance-formInfo input.btn {
+	padding-left: 0;
+}
+
+.finance-personImg {
+	position: absolute;
+	bottom: -28rem;
+}
+
+.finance-step i {
+	font-size: 100px;
+	height: 120px;
+}
+
+.finance-step {
+	height: 225px;
+	margin: 20px 0;
+}
+
+.finance-step .btn {
+	width: 50%;
+	margin: 10px auto;
+}
+
+.finance-arrows {
+	font-size: 80px;
+	line-height: 225px;
+}
+.finance-arrows,
+.finance-step i {
+	color: #555;
+}
+.finance-infowell {
+	height: 110px;
+}
+.img-step{
+	width: 77px;
+	height: 77px;
+    position: relative;
+    top: 10px;
+}
+.img-step i {
+    font-size: 40px;
+    height: 40px;
+    line-height: 77px;
+}
+.finance-infowell ,
+.img-step + div {
+	    width: 85%;
+    margin: auto;
+}
+.finance-infowell:first-child {
+	padding-left: 30%;
+}
+.requirements-bg {
+	background: url(../images/fiancing/requirements-bg.png) no-repeat;
+}
+.hjs-identify {
+	width: 150px;
+	height: 175px;
+	margin: 20px auto;
+	background: url(../images/fiancing/dataBg-1.png);
+}
+.hjs-identify i {
+	font-size: 50px;
+	margin-top: 20px;
+}
+
+/*视频播放失败*/
+.txp_overlay_expired {
+	width: 70%;
+    text-align: center;
+    font-size: 20px;
+}
+.txp_expired_title,
+.txp_expired_choice > div,
+.txp_expired_choice + div{
+	margin: 15px 0;
+}
+
+@media (min-width: 760px) and (max-width: 990px) {
+	.hjs-hzhbcon-ul {
+		text-align: justify;
+	}
+	.hjs-hzhbcon-ul li {
+		width: 199px;
+		text-align: justify;
+	}
+	.notice {
+	    font-size: 50px;
+	}
+	.finance-personImg {
+	    bottom: -13rem;
+	}
+	.finance-formBox{
+		margin-top:3rem;
+	}
+}
+@media (max-width: 550px) {
+	.hjs-information{
+		height: 360px;
+    	overflow: hidden;
+	}
+	.invListBox > ul{
+		padding-left: 0.8rem !important;
+	}
+	.invListBox > ul li{
+	    padding: 0 0.8rem 0 0;
+	} 
+	.tagName ,
+	.finance-infowell ,
+	.trends-left,
+	.trends-right {
+		height: auto;
+	}
+	.hjs-itemsNavBar li {
+		width: 32%;
+	}
+	.hjs-intZoneBox p{
+		margin-bottom: 5px;
+	}
+	.hjs-hzhbcon-ul li {
+		width: 32%;
+	    margin: 0;
+	}
+	.hjs-itemsNavBar {
+		margin: 0 0 10px;
+	}
+	.img-step,
+	.finance-arrows ,
+	.carousel-indicators ,
+	.hjs-traitBox h3+p,
+	.hjs-rightBoxs {
+		display: none;
+	}
+	.hjs-traitBox i {
+		font-size: 6.5rem;
+		height: 75px;
+	}
+	.hjs-traitBox:nth-of-type(2) i {
+		font-size: 6.4rem;
+	}
+	.phoneNum {
+		font-size: 2rem;
+		margin: 1rem 0;
+	}
+	.hjs-traitBox:nth-of-type(4) i,
+	.hjs-traitBox:first-child i {
+		font-size: 5.8rem;
+	}
+	.hjs-traitBox:nth-of-type(4) i {
+		margin-top: 5px;
+		height: 70px;
+	}
+	.hjs-information>li>div,
+	.accumulateBox {
+		padding: 10px 0;
+	}
+	.hjs-traitBox i+h3 {
+		margin: 5px 0;
+	}
+	.phoneNum+h5,
+	.hjs-accumulate strong {
+		font-size: 1rem;
+		margin: 0 2px;
+	}
+	.mediaTitle {
+		font-size: 1.6rem;
+	}
+	.hjs-itemsNavBar li ,
+	.investmentBox,
+	.mediaTime {
+		margin: 0;
+	}
+	.hjs-traitBox i + h3 {
+		font-size: 13px;
+	}
+	.mediaDes {
+	    max-height: 35px;
+	}
+	.finance-infowell,
+	.img-step + div ,
+	.mediaDes,
+	.mediaTime,
+	.formBox_tipsBox,
+	.hjs-accumulate li {
+		font-size: 1rem;
+	}
+	.investmentBox>li {
+		padding: 0.3rem;
+		margin: 0 0 1rem;
+	}
+	.contentbox ,
+	.hjs-intZoneBox ,
+	.hjs-traitBox ,
+	.requirements-bg .finance-step {
+		padding: 0;
+	}
+	.finance-infowell,
+	.hjs-intZoneBox {
+		padding: 1rem 0;
+	}
+	.contentbox{
+		padding: 0 0 1rem;
+	}
+	.finance-arrows.downward {
+	    height: 30px;
+	    font-size: 5rem;
+	    line-height: 0;
+	}
+	.finance-infowell,
+	.img-step + div ,
+	.finance-formBox {
+		width: 100%;
+	}
+	.finance-personImg {
+	    width: 180%;
+	    position: absolute;
+	    left: 0;
+	    top: 4rem;
+	}
+	.finance-step i {
+		font-size: 5rem;
+		height: auto;
+	}
+	.notice {
+		font-size: 3rem;
+		margin-bottom: 20px;
+	}
+	.accumulateBox + .contentbox > div ,
+	.information,
+	.investmentBox1 {
+		padding: 0 0.8rem;
+	}
+	.hjs-intZoneBox ,
+	.hjs-hzhbcon-ul,
+	.hjs-footer,
+	.finance-step {
+		height: auto;
+		margin: 0px 0 20px;
+	}
+	.hjs-traitBox {
+		margin-top: -1rem;
+	}
+	.hjs-nhll > div {
+		font-size: 4rem;
+	}
+	.hjs-intZoneBox > img {
+	    left: -15px;
+	    top: -15px;
+	    width: 6rem;
+	}
+}
+@media (max-width: 780px){
+	.finance-arrows {
+	    font-size: 40px;
+	    line-height: 1px;
+	}
+}
